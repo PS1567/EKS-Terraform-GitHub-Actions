@@ -4,7 +4,6 @@ terraform {
     aws = {
       source  = "hashicorp/aws"
       version = "~> 5.49.0"
-      init -migrate-state
     }
   }
   backend "s3" {
